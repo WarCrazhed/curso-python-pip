@@ -24,6 +24,7 @@ def run():
   print(country)
 
   result = utils.population_by_country(data, country)
+  print(result)
 
   if len(result) > 0:
     country = result[0]
